@@ -1,0 +1,25 @@
+- type: entity
+  parent: [BaseStructureFlatpack, BaseEngineeringContraband]
+  id: NuclearReactorSmallFlatpack
+  name: Упаковка малого ядерного реактора
+  description: Универсально-сборная конструкция для сборки малого ядерного реактора. Запчасти покупаются отдельно.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/flatpack.rsi
+    layers:
+    - state: large
+  - type: Flatpack
+    entity: NuclearReactorSmallEmpty
+
+- type: entity
+  parent: [BaseStructureFlatpack, BaseEngineeringContraband]
+  id: GasTurbineSmallFlatpack
+  name: Упаковка малой турбины
+  description: Универсально-сборная конструкция для сборки малой газовой турбины.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/flatpack.rsi
+    layers:
+    - state: large
+  - type: Flatpack
+    entity: GasTurbineSmall

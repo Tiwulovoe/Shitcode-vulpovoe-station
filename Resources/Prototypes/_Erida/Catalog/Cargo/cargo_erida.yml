@@ -7,3 +7,23 @@
   cost: 6750
   category: cargoproduct-category-name-security
   group: market
+
+- type: cargoProduct
+  id: NuclearReactorSmallFlatpackPurchase
+  icon:
+    sprite: _FarHorizons/Interface/FissionGenerator/cargo_icons.rsi
+    state: reactor_small
+  product: NuclearReactorSmallFlatpack
+  cost: 15000
+  category: cargoproduct-category-name-engineering
+  group: market
+
+- type: cargoProduct
+  id: GasTurbineSmallFlatpackPurchase
+  icon:
+    sprite: _FarHorizons/Interface/FissionGenerator/cargo_icons.rsi
+    state: turbine_small
+  product: GasTurbineSmallFlatpack
+  cost: 10000
+  category: cargoproduct-category-name-engineering
+  group: market
